@@ -15,7 +15,12 @@ export default {
 
 <input type="text" class="form-control" v-model="digit">
 <select name="" id="" class="form-select">
-  <option v-for="(currency, key) in currencies" :value="key" :selected="key === 'EUR' ? true : false">{{ currency }}</option>
+  <option v-for="(currency, key) in currencies" :value="key" :selected="key === 'EUR'">{{ currency }}</option>
+</select>
+
+<input type="text" class="form-control" v-model="digit">
+<select name="" id="" class="form-select">
+  <option v-for="(currency, key) in currencies" :value="key" :selected="key === 'USD'">{{ currency }}</option>
 </select>
 
 </template>

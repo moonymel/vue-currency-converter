@@ -44,7 +44,6 @@ export default {
 
       <div class="col-12">
         <AppInput :currencies="currencies" />
-        <AppInput :currencies="currencies" />
       </div>
 
     </div>
